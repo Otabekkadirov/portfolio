@@ -4,9 +4,57 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Portfolio</title>
+        <title>Drum kit</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1>Hello world</h1>
+        <div class="keys-container">
+            <div class="key" data-key="65">
+                <h2>A</h2>
+                <span class="sound">clap</span>
+            </div>
+            <div class="key" data-key="83">
+                <h2>S</h2>
+                <span class="sound">hihat</span>
+            </div>
+            <div class="key" data-key="68">
+                <h2>D</h2>
+                <span class="sound">kick</span>
+            </div>
+            <div class="key" data-key="70">
+                <h2>F</h2>
+                <span class="sound">openhat</span>
+            </div>
+            <div class="key" data-key="71">
+                <h2>G</h2>
+                <span class="sound">boom</span>
+            </div>
+            <div class="key" data-key="72">
+                <h2>H</h2>
+                <span class="sound">ride</span>
+            </div>
+            <div class="key" data-key="74">
+                <h2>J</h2>
+                <span class="sound">snare</span>
+            </div>
+            <div class="key" data-key="75">
+                <h2>K</h2>
+                <span class="sound">tom</span>
+            </div>
+            <div class="key" data-key="76">
+                <h2>L</h2>
+                <span class="sound">tink</span>
+            </div>
+        </div>
+        <audio data-key="65" src="sounds/clap.wav" id="clap"></audio>
+        <audio data-key="83" src="sounds/hihat.wav"></audio>
+        <audio data-key="68" src="sounds/kick.wav"></audio>
+        <audio data-key="70" src="sounds/openhat.wav"></audio>
+        <audio data-key="71" src="sounds/boom.wav"></audio>
+        <audio data-key="72" src="sounds/ride.wav"></audio>
+        <audio data-key="74" src="sounds/snare.wav"></audio>
+        <audio data-key="75" src="sounds/tom.wav"></audio>
+        <audio data-key="76" src="sounds/tink.wav"></audio>
+        <script src="main.js"></script>
     </body>
 </html>
